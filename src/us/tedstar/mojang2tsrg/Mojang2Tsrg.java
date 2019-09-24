@@ -91,8 +91,7 @@ public class Mojang2Tsrg {
                         returnType = typeToDescriptor(returnType);
                         params = Arrays.stream(params.split(",")).map(this::typeToDescriptor).collect(Collectors.joining());
 
-                        if(!methodName.equals("<init>") && !methodName.equals("<clinit>"))
-                            buf.write("\t" + obfName + " (" + params + ")" + returnType + " " + methodName + "\n");
+                        buf.write("\t" + obfName + " (" + params + ")" + returnType + " " + methodName + "\n");
                     } else { // This is a field.
                         String fieldName = parts[1];
                         String obfName = parts[3];
