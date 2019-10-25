@@ -1,0 +1,20 @@
+plugins {
+    id "java"
+}
+
+
+group = theGroup
+version = theVersion
+sourceCompatibility = "1.8"
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "us.tedstar.mojang2tsrg.Mojang2Tsrg"
+        )
+    }
+}
