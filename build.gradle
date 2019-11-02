@@ -3,13 +3,16 @@ plugins {
     id "maven"
 }
 
-
 group = theGroup
 version = theVersion
 sourceCompatibility = "1.8"
 
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
+}
+
+java {
+    withSourcesJar()
 }
 
 jar {
