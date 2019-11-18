@@ -1,4 +1,4 @@
-# Mojang2Tsrg [![Status](https://github.com/ConduitMC/Mojang2Tsrg/workflows/Gradle%20CI/badge.svg)](https://github.com/ConduitMC/Mojang2Tsrg/actions)
+# Mojang2Tsrg [![Status](https://github.com/ConduitMC/Mojang2Tsrg/workflows/Gradle%20CI/badge.svg)](https://github.com/ConduitMC/Mojang2Tsrg/actions) [![Nexus](https://img.shields.io/nexus/r/us.tedstar.mojang2tsrg/Mojang2Tsrg?server=https%3A%2F%2Frepo.conduit.systems)](https://repo.conduit.systems/)
 A small tool that converts Mojang's ProGuard obfuscation map to TSRG format, for use by SpecialSource
 
 It is currently under development, but is minimally functional. Providing the proguard .txt as the first argument,
