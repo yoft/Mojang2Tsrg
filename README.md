@@ -1,4 +1,4 @@
-# Mojang2Tsrg
+# Mojang2Tsrg [![Status](https://github.com/ConduitMC/Mojang2Tsrg/workflows/Gradle%20CI/badge.svg)](https://github.com/ConduitMC/Mojang2Tsrg/actions)
 A small tool that converts Mojang's ProGuard obfuscation map to TSRG format, for use by SpecialSource
 
 It is currently under development, but is minimally functional. Providing the proguard .txt as the first argument,
