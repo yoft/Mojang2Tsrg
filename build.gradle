@@ -31,4 +31,13 @@ publishing {
             from components.java
         }
     }
+    repositories {
+        maven {
+            credentials {
+                username System.getProperty("MAVEN_USER")?:'ci'
+                password System.getProperty("MAVEN_PASSWORD")?:'password'
+            }
+            url "https://repo.conduit.systems/repository/releases/"
+        }
+    }
 }
